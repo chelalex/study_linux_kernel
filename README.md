@@ -2,6 +2,6 @@
 
 ## 13 Feb 2026
 
-Trying to use UNIX syscalls to “ping-pong” a byte between two processes over a pair of pipes, one for each direction.
-I've used syscalls such as: fork(), pipe(), clock_gettime(), read() and write().
-Manipulating with file descriptors
+- *ping-pong.c* is a result of "Write a program that uses UNIX system calls to “ping-pong” a byte between two processes
+over a pair of pipes, one for each direction. Measure the program’s performance, in ex-
+changes per second."
