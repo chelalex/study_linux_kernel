@@ -2,7 +2,7 @@
 
 ## 14 Feb 2026
 
-- *my_sleep.c* is a result of "Implement the UNIX program sleep; your sleep should pause for a user-specified number of ticks. A tick is a notion of time defined by the xv6 kernel, namely the time between two interrupts from the timer chip."  
+- *my_sleep.c* is a result of "Implement the UNIX program sleep; your sleep should pause for a user-specified number of ticks. A tick is a notion of time defined by the ~~xv6~~ linux kernel, namely the time between two interrupts from the timer chip."  
 In another aspect with default *sleep* command, *my_sleep* launches with only cpu ticks value, then uses *clock_nanosleep* syscall. This code uses C23 standard.  
 There is the output results:
 ```
